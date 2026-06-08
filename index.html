@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centro Tecnológico</title>
+
+    <style>
+
+        body{
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        header{
+            text-align: center;
+            padding: 20px;
+            background-color: white;
+        }
+
+        .logo{
+            width: 150px;
+            height: auto;
+        }
+
+        nav{
+            margin-top: 15px;
+        }
+
+        nav a{
+            margin: 0 15px;
+            text-decoration: none;
+            color: #2E7D32;
+            font-weight: bold;
+        }
+
+        section{
+            padding: 30px;
+        }
+
+        h2{
+            text-align: center;
+            color: #2E7D32;
+        }
+
+        .productos{
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .tarjeta{
+            background: white;
+            width: 300px;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .tarjeta img{
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        #contacto{
+            text-align: center;
+        }
+
+        .boton-whatsapp{
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: #25D366;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            margin-top: 15px;
+        }
+
+        footer{
+            background-color: #2E7D32;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <header>
+
+        <img src="img/logo.png" alt="Logo del Centro" class="logo">
+
+        <h1>Centro Tecnológico</h1>
+
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#productos">Producción</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+
+    </header>
+
+    <section id="inicio">
+
+        <h2>Bienvenidos</h2>
+
+        <p>
+            Somos un Centro de Educación Técnica Profesional que ofrece
+            carreras de los sectores Comercio y Servicio, Agropecuario y Forestal.
+        </p>
+
+        <p>
+            Nuestros estudiantes cuentan con internado y una finca didáctica
+            agroecológica para el desarrollo de las prácticas formativas.
+        </p>
+
+        <p>
+            Además, disponemos de establos, porquerizas, galpones para aves,
+            laboratorio cárnico y planta láctea, espacios que fortalecen
+            el aprendizaje práctico y la formación integral de nuestros estudiantes.
+        </p>
+
+    </section>
+
+    <section id="productos">
+
+        <h2>Nuestra Producción</h2>
+
+        <div class="productos">
+
+            <div class="tarjeta">
+
+                <h3>🌽 Granos</h3>
+
+                <img src="img/granos.jpg" alt="Producción de granos">
+
+                <p>
+                    Producción agrícola obtenida en la finca didáctica
+                    del centro tecnológico.
+                </p>
+
+            </div>
+
+            <div class="tarjeta">
+
+                <h3>🥛 Lácteos</h3>
+
+                <img src="img/lacteos.jpg" alt="Productos lácteos">
+
+                <p>
+                    Productos elaborados en la planta láctea como parte
+                    de la formación práctica.
+                </p>
+
+            </div>
+
+            <div class="tarjeta">
+
+                <h3>🥩 Cárnicos</h3>
+
+                <img src="img/carnicos.jpg" alt="Productos cárnicos">
+
+                <p>
+                    Productos procesados en el laboratorio cárnico
+                    bajo estándares de calidad.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="contacto">
+
+        <h2>Contáctanos</h2>
+
+        <p>
+            ¿Desea obtener más información sobre nuestra producción?
+        </p>
+
+        <p>
+            Estamos disponibles para atender sus consultas y brindar
+            información sobre nuestros productos y servicios.
+        </p>
+
+        <a href="https://wa.me/50588477489?text=Hola,%20me%20interesa%20obtener%20más%20información%20sobre%20los%20productos%20del%20Centro%20Tecnológico."
+           target="_blank"
+           class="boton-whatsapp">
+
+           📱 Contactar por WhatsApp
+
+        </a>
+
+    </section>
+
+    <footer>
+        © 2026 Centro Tecnológico - Todos los derechos reservados
+    </footer>
+
+</body>
+</html>
